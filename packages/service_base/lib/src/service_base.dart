@@ -6,7 +6,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-const String host = 'http://localhost:8080/api';
+const String host = 'http://10.10.8.18:8080/api';
 
 class BaseService {
   Future<T?> get<T>({required String route, T Function(Map<String, dynamic>?)? onConvert, Map<String, String>? headers, int? timeout}) async {

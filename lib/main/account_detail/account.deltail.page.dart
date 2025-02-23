@@ -361,7 +361,7 @@ Future<String?> uploadFile(File file) async {
     Map<String, String> headers = {'content-type': 'application/json'};
     final request = http.MultipartRequest(
       "POST",
-      Uri.parse("http://localhost:8080/api/upload"),
+      Uri.parse("http://10.10.8.18:8080/api/upload"),
     );
     request.headers.addAll(headers);
     request.files.add(
