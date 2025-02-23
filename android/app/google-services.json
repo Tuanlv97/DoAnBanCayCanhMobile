@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39036452343",
+    "project_id": "doan-9fc3f",
+    "storage_bucket": "doan-9fc3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39036452343:android:ca5402a4e9e0390bee42f2",
+        "android_client_info": {
+          "package_name": "com.startup.plantsfresher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF1L4YSRwwzbyJ7CG1vmFfC8RLQ1faGr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
